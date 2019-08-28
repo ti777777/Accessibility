@@ -20,22 +20,18 @@ window.addEventListener("keydown",function(e){
     if(KeyDownList.includes('alt')&&KeyDownList.includes('u')){
         this.location.href="#header";
         this.document.querySelector("a[href='#header']").focus();
-        this.window.scrollTo(0,0);
     }
     else if(KeyDownList.includes('alt')&&KeyDownList.includes('c')){
         this.location.href="#main";
         this.document.querySelector("a[href='#main']").focus();
-        this.window.scrollTo(0,80);
     }
     else if(KeyDownList.includes('alt')&&KeyDownList.includes('l')){
         this.location.href="#aside";
         this.document.querySelector("a[href='#aside']").focus();
-        this.window.scrollTo(0,80);
     }
     else if(KeyDownList.includes('alt')&&KeyDownList.includes('z')){
         this.location.href="#footer";
         this.document.querySelector("a[href='#footer']").focus();
-        window.scrollTo(0,document.body.scrollHeight);
     }
     else{
 
