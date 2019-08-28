@@ -1,0 +1,5 @@
+button:focus ,a:focus {
+  outline-width: 3px;
+  outline-style: dashed;
+  outline-color: orange;
+}
