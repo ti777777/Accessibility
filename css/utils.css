@@ -1,4 +1,4 @@
-button:focus ,a:focus {
+:focus {
   outline-width: 3px;
   outline-style: dashed;
   outline-color: orange;
